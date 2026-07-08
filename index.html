@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini jogo Interativo</title>
+    <link rel="shortcut icon" href="https://i.postimg.cc/4dhf2XcR/favicon.png" type="image/png">
+</head>
+
+    <h2>Mini jogo Interativo</h2>
+
+    <div id="dialogo">"Bem vindo! Use as setas para mover o personagem!"</div>
+
+    <div id="game-container">
+        <img id="player" src="https://i.postimg.cc/tC1S6kF4/mago.png" alt="jogador">
+        <img id="enemy" src="https://i.postimg.cc/WpHjmpqY/enemy.png" alt="enemy">
+    </div>
+
+    <h3>Vida do jogador</h3>
+    
+    <div class="vida-container">
+        <div id="vida-player"class="vida"></div>
+    </div>
+
+    <h3>Vida do inimigo</h3>
+    
+    <div class="vida-container">
+        <div id="vida-inimigo"class="vida"></div>
+    </div>
+
+    <button class="btn dano" onclick="alterarVida(-20)">🔥 - Tomar dano</button>
+    <button class="btn cura" onclick="alterarVida(20)">💊 - Curar</button>
+    <button class="btn loja" onclick="abrirLoja()">🛒 - Loja</button>
+    <button class="btn ataque" onclick="ataqueEspecial()">⚡ - Ataque Especial</button>
+<body>
+    
+</body>
+</html>
